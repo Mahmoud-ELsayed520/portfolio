@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio — Mahmoud EL Sayed</title>
+
+  <!-- Fonts & icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="/CSS/master.css">
+</head>
+<body>
+
+  <!-- Progress Bar -->
+  <div class="progress-bar" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#hero" class="header__logo" aria-label="Home">
+        <img src="images/logo.png" alt="My Portfolio Logo">
+      </a>
+
+      <nav class="header__nav">
+        <button class="header__nav-toggle" aria-label="Toggle navigation menu">☰</button>
+
+        <ul class="header__nav-list">
+          <li><a href="#hero" class="header__nav-link header__nav-link--active">Home</a></li>
+          <li><a href="#projects" class="header__nav-link">Projects</a></li>
+          <li><a href="#about" class="header__nav-link">About</a></li>
+          <li><a href="#contact" class="header__nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="header__theme-toggle" aria-label="Toggle theme">🌙</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section id="hero" class="hero fade-in">
+      <canvas class="hero__canvas"></canvas>
+
+      <div class="hero__inner container">
+        <div class="hero__text">
+          <h1 class="hero__title">Hi, I'm Mahmoud 👋</h1>
+          <p class="hero__subtitle">Front-End Web Developer, building clean UI with HTML, CSS and modern tools.</p>
+          <div class="hero__cta">
+            <a href="#projects" class="btn">See My Work</a>
+            <a href="#contact" class="btn btn--outline">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero__image">
+          <img src="/images/pro.jpeg" alt="Profile Picture" class="hero__profile-img">
+        </div>
+      </div>
+    </section>
+    <div class="section-divider"></div>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects fade-in">
+      <div class="container projects__inner">
+        <h2 class="projects__title">Projects</h2>
+        <p class="projects__subtitle"></p>
+        <div class="projects__grid"></div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- About Section -->
+    <section id="about" class="about fade-in">
+      <div class="container about__inner">
+        <div class="about__content">
+          <h2 class="about__title">About Me</h2>
+          <p class="about__lead">
+            I'm Mahmoud EL Sayed, a Mathematics & Computer Science student and a passionate Front-End Web Developer.
+            I specialize in creating interactive, responsive, and user-friendly web applications.
+          </p>
+
+          <div class="about__skills">
+            <span class="skill skill--html">HTML</span>
+            <span class="skill skill--css">CSS</span>
+            <span class="skill skill--js">JavaScript</span>
+            <span class="skill skill--react">React</span>
+            <span class="skill skill--tailwind">Tailwind CSS</span>
+            <span class="skill skill--node">Node.js</span>
+            <span class="skill skill--git">Git</span>
+            <span class="skill skill--github">GitHub</span>
+            <span class="skill skill--npm">NPM</span>
+            <span class="skill skill--webpack">Webpack</span>
+          </div>
+
+          <p class="about__lead">
+            I focus on writing clean, maintainable code, translating design concepts into functional websites,
+            and delivering seamless user experiences. Always eager to learn and explore new technologies
+            to build modern, efficient web solutions.
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="section-divider"></div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact fade-in">
+      <div class="container contact__inner">
+        <h2 class="contact__title">Contact Me</h2>
+        <p class="contact__lead">Have a project in mind? Let's build something amazing together!</p>
+
+        <form class="contact__form fade-in" action="https://formspree.io/f/xpwybkry" method="POST">
+          <div class="contact__form-row">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+          </div>
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+  
+          <button type="submit" class="btn contact__form-submit">
+            Send Message <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+
+        <div class="contact__socials fade-in">
+          <a href="https://www.linkedin.com/in/mahmoud-el-sayed-173561342/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://x.com/saywd91899" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.facebook.com/mahmoud.el.sayed.782031" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/mahmoudelsayed_2/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__text">&copy; 2025 Mahmoud EL Sayed — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" title="Back to top" aria-label="Back to top">⬆</button>
+
+  <!-- Scripts -->
+  <script type="module" src="CSS/JS/main.js"></script>
+</body>
+</html>

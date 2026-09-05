@@ -1,0 +1,45 @@
+[
+  {
+    "id": "numina-math-engine",
+    "title": "Numina: Advanced Math Engine",
+    "description": "A sophisticated mathematical powerhouse engineered for Calculus 3 and Multivariable analysis. The core engine bridges JavaScript with Python using Pyodide to execute high-level symbolic computations via SymPy directly in the browser. It features a custom-built 3D visualization system using Plotly.js, allowing users to interactively plot complex vector fields, gradients, and triple integrals. This project demonstrates advanced architectural knowledge in cross-language integration and client-side scientific computing.",
+    "tech": [
+      "JavaScript ES6",
+      "Python (Pyodide)",
+      "SymPy",
+      "Plotly.js",
+      "Calculus 3 Logic",
+      "Numerical Analysis"
+    ],
+    "image": "images/num.png",
+    "live": "https://numina1.netlify.app/"
+  },
+  {
+    "id": "delicious-bites",
+    "title": "Delicious Bites",
+    "description": "A premium digital culinary experience focused on high-end UI/UX principles. This project implements a sophisticated 'Glassmorphic' design language, utilizing complex CSS Grid systems and advanced Flexbox layouts for flawless responsiveness. Beyond aesthetics, it features custom filtering logic for menu categories and interactive state management for a seamless browsing experience. Designed with a 'Performance First' approach, achieving exceptional visual hierarchy and accessibility.",
+    "tech": [
+      "HTML5 Semantic Tags",
+      "Advanced CSS3 (SCSS Logic)",
+      "JavaScript DOM",
+      "Responsive Architecture",
+      "Glassmorphism UI"
+    ],
+    "image": "images/Screenshot (21).png",
+    "live": "https://delicious-bites155.netlify.app/"
+  },
+  {
+    "id": "todo",
+    "title": "TaskFlow Manager",
+    "description": "An enterprise-grade task management system engineered for persistence and data integrity. It implements a robust integration with the Web Storage API (LocalStorage) to ensure zero data loss during sessions. The application follows strict Object-Oriented Programming (OOP) patterns in Vanilla JavaScript, featuring dynamic DOM reconstruction, real-time input validation, and a custom event-handling system. A masterclass in managing application state without external frameworks.",
+    "tech": [
+      "Vanilla JavaScript",
+      "LocalStorage API",
+      "OOP Patterns",
+      "Data Persistence",
+      "Event-Driven Design"
+    ],
+    "image": "images/TO-DO-LIST.png",
+    "live": "https://mahmoud-elsayed520.github.io/TODOLIST/"
+  }
+]
